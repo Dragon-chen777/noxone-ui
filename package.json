@@ -1,0 +1,19 @@
+{
+  "name": "noxone-ui",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": {
+    "name": "noxone"
+  },
+  "keywords": [
+    "Vue",
+    "MusicPlayer",
+    "noxone"
+  ],
+  "private": false,
+  "license": "MIT",
+  "description": "this is a tiny but awesome UI library for Vue",
+  "dependencies": {
+    "stylus": "^0.59.0"
+  }
+}

@@ -1,28 +1,17 @@
-import cpns from './components'
-// 1. 单个组件导入
-// import { NoxoneMusicPlayer } from 'noxone-ui'; 
-// Vue.use(NoxoneMusicPlayer, {
-//   props: {
-//     isShowAuthor: false,
-//     ...
-//   }
-// })
-
-// 2. 全部组件导入
-// import noxoneUI from 'noxone-ui'
-// Vue.use(noxoneUI, {
-//   NoxoneMusicPlayer: {
-//     props: {
-//       isShowAuthor: false,
-//       ...
-//     }
-//   }
-// })
-export default {
-  ...cpns, 
+import cpnController from './components'
+export default{
   install(Vue, config = {}) {
-    [...cpns].forEach(cpn => {
-      cpn.name in config ? cpn.install(Vue, config[cpn.name]) : cpn.install(Vue)
-    })
-  },
+    for (let key in cpnController) {
+      cpnController[key].name in config ?
+        cpnController[key].install(Vue, config[cpnController[key].name])
+        : cpnController[key].install(Vue)
+    }
+  }
 }
+
+import noxoneMusicPlayer from './components/MusicPlayer'
+export {
+  noxoneMusicPlayer,
+} 
+
+

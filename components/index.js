@@ -1,5 +1,5 @@
-import MusicPlayer from "./MusicPlayer"
+import noxoneMusicPlayer from "./MusicPlayer"
 
-export default [
-  MusicPlayer,
-]
+export default {
+  noxoneMusicPlayer
+}

@@ -1,7 +1,3 @@
----
-theme: devui-blue
-highlight: tomorrow-night
----
 ## 0. NOxONE UI库
 这是一个轻量且Awesome的`Vue UI库`，作者个人博客[NOxONE](https://dragon-chen777.github.io/NOxONE)，项目Github地址[noxone-ui](https://github.com/Dragon-chen777/noxone-ui)，喜欢的话，右上角点个star⭐吧，您的一个小小动作对我来说就是最大的鼓励和支持（小声哔哔：毕竟谁也不想辛苦做的东西到头来却无人问津对吧？）
 

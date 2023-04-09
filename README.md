@@ -80,6 +80,7 @@ export defaut {
 
 ## 4. 组件配置
 ### 4.1 noxone-music-player
+![img](https://s1.ax1x.com/2023/04/09/ppbJA9U.png)
 #### 4.1.1 属性
 ##### musicList
 歌曲列表，Array类型，必填，格式如下
